@@ -34,7 +34,7 @@ sudo usermod -aG docker username
 It is used for switch to that directory for copy or add files or run some command in that directory in container. It also helps to create the new directory, which are used for building the image, copy the code and settings to it.
 
 
-##ENV 
+## ENV 
 
 It's use for environment variable of docker images. Docker image contains the lightweight operating system. we can push and override the environment variable from  calling it
 COPY 
@@ -42,7 +42,7 @@ COPY
 Helps to copy the file from host machine to docker container.
 
 
-##ADD -
+## ADD 
 
 Helps to copy the file from host machine to docker image or container. It as like as copy instractions, it has extra functionality, it copy the file from remote also
 
