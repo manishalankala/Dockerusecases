@@ -11,7 +11,7 @@
 
 
 ```
-version: '3.2'
+version: '3'
 
 services:
   elasticsearch:
@@ -84,7 +84,7 @@ services:
 
 networks:
   elk:
-    driver: bridge
+    driver: overlay
 
 volumes:
   elasticsearch:
