@@ -17,3 +17,5 @@ sudo systemctl stop docker			#stop the docker service
 sudo systemctl start docker			#start the docker service
 
 sudo systemctl  restart docker		#restart the docker service
+
+docker version
