@@ -62,4 +62,4 @@ used for configure the container that will run as an executable. We can add the 
 
 ## EXPOSE 
 
---> It will help to expose the port for to in docker to access by other container or images. we also mapping with host computer port during run the docker container.
+It will help to expose the port for to in docker to access by other container or images. we also mapping with host computer port during run the docker container.
